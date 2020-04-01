@@ -1,0 +1,163 @@
+html {
+    background-image: url('../img/background.jpg');
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: playlist_caps;
+    src: url('../Font/Playlist\ Caps.otf');
+}
+
+.logo {
+    text-align: center;
+}
+
+html {
+    color: gold;
+}
+
+h1 {
+    color: gold;
+    font-family: playlist_caps;
+}
+
+a {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kratkoe {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.kratkoe:first-letter {
+    font-size: 30px;
+}
+
+.podrobnoe {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.podrobnoe:first-letter {
+    font-size: 35px;
+}
+
+.harakteristiki {
+    list-style-image: url('../img/ul.png');
+    color: gold;
+}
+
+.menu_div a {
+    font-family: Bradley Hand, cursive;
+    margin: 10px;
+
+}
+
+.menu_div a:hover {
+    color: gold;
+}
+
+.data {
+    text-transform: capitalize;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    height: 20px;
+    width: 200px;
+}
+
+.data::first-letter {
+    font-size: 25px;
+    color: gold;
+}
+
+.data:focus {
+    background-color: gold;
+}
+
+.comment:focus {
+    background-color: gold;
+    color: rgb(110, 110, 110);
+}
+
+.comment {
+    color: rgb(110, 110, 110);
+}
+
+textarea {
+    text-transform: capitalize;
+}
+
+.comment {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.form-contacts {
+    font-family: Luminari, fantasy;
+    font-weight: 100;
+}
+
+.form-contacts::first-letter {
+    font-size: 30px;
+    color: gold;
+}
+
+.outline {
+    outline: 2px solid gold;
+}
+
+.outline:hover {
+    outline: none;
+}
+
+td {
+    text-align: center;
+    border: 2px solid gold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid gold;
+    width: 300px;
+    height: 200px;
+}
+
+th {
+    border: 2px solid gold;
+}
+
+table tr:first-child {
+    height: 100px;
+    border: 2px solid gold;
+}
+
+.div_figure figure {
+    display: inline-block;
+}
+
+.footer {
+    text-align: right;
+
+}
+
+hr {
+    height: 2px;
+    color: grey;
+    background-color: grey;
+}
