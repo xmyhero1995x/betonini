@@ -8,9 +8,29 @@ html {
     src: url('../Font/Playlist\ Caps.otf');
 }
 
-.logo {
-    text-align: center;
+.fff {
+    display: flex;
+    flex-direction: ;
 }
+
+button {
+    color: black;
+    background-color: gold;
+    border: black;
+}
+
+button:focus {
+    background-color: rgb(110, 110, 110);
+    color: gold;
+}
+
+
+.logo {
+    text-align: left;
+    width: 50%;
+    margin: 15px 0 0 15px;
+}
+
 
 html {
     color: gold;
@@ -62,15 +82,20 @@ h3 {
     color: gold;
 }
 
-.menu_div a {
+.menu a {
     font-family: Bradley Hand, cursive;
     margin: 10px;
 
 }
 
-.menu_div a:hover {
+.menu a:hover {
     color: gold;
 }
+
+.menu li {
+    display: inline-block;
+}
+
 
 .data {
     text-transform: capitalize;
@@ -147,17 +172,44 @@ table tr:first-child {
     border: 2px solid gold;
 }
 
-.div_figure figure {
-    display: inline-block;
+
+.header {
+    width: 50%;
+    height: 150px;
+    text-align: right;
+}
+
+.short {
+    margin: 30px;
+}
+
+.content_product {
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
-    text-align: right;
+    height: 150px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
 
+}
+
+.product {
+    float: left;
 }
 
 hr {
     height: 2px;
     color: grey;
     background-color: grey;
+}
+
+.container {
+    text-align: center;
+}
+
+.main_page {
+    display: flex;
 }
